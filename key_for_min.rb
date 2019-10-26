@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   # Convert hash to array
   name_a = name_hash.to_a
-  empt_hash = {}
+  empt_hash = {test: "hope it works"}
   # Default key value
   d_value= 1000
   d_key= 0
